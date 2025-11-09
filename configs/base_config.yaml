@@ -14,6 +14,7 @@ Model:
   align_method: 'numba' # 'numba' or 'numpy', use 'numba' would be faster
   using_sim3: True # Using SIM(3) alignment if True, while using SE(3) alignment if False
   reference_frame_mid: False 
+  sample_rate: 30
   # If reference_frame_mid == True, use the middle frame within the chunk as the 
   # reference frame to alleviate the scale drift when loop closure is not available.
   # Disable it for now cuz i found some bugs related to this feature [by deng on 09 Oct].

@@ -1,19 +1,28 @@
 numpy==1.26.1
+opencv-python==4.8.1.78
+numpy
+opencv-python
 Pillow
 huggingface_hub
 einops
 safetensors
 
 numba==0.61.2
+# numba
 
 onnxruntime
 pyparsing
 importlib_metadata
 
 xformers == 0.0.24
+# xformers
 faiss-gpu
 pandas
 prettytable
 pytorch-lightning
 pytorch-metric-learning
 torchmetrics
+
+pypose
+trimesh
+matplotlib
